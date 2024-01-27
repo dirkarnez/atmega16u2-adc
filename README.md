@@ -11,6 +11,7 @@ atmega16u2-adc
 
 
 ### Reference
+- [**Arduino 烧录 Boot Loader | 米米的博客**](https://zhangshuqiao.org/2019-10/Arduino%E7%83%A7%E5%BD%95Boot%20Loader/)
 - [analogRead() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)
 - https://github.com/arduino/ArduinoCore-avr/blob/master/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-atmega16u2-Uno-Rev3.hex
   - `avrdude -p at90usb82 -F -P usb -c avrispmkii -U flash:w:UNO-dfu_and_usbserial_combined.hex -U lfuse:w:0xFF:m -U hfuse:w:0xD9:m -U efuse:w:0xF4:m -U lock:w:0x0F:m`
