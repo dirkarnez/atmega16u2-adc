@@ -11,6 +11,7 @@ atmega16u2-adc
 
 
 ### Reference
+- [Arduino入門教學(17) – 如何用 Arduino 燒錄 AVR 晶片 (作者：Cooper Maa)](http://programmermagazine.github.io/201405/htm/article1.html)
 - [**Arduino 烧录 Boot Loader | 米米的博客**](https://zhangshuqiao.org/2019-10/Arduino%E7%83%A7%E5%BD%95Boot%20Loader/)
 - [analogRead() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)
 - https://github.com/arduino/ArduinoCore-avr/blob/master/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-atmega16u2-Uno-Rev3.hex
