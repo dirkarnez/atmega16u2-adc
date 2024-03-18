@@ -1,0 +1,2 @@
+"%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\bin\avrdude" "-C%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\etc\avrdude.conf" -v -patmega16u2 -carduino -PCOM5 -b19200 -Uflash:w:Arduino-usbserial-atmega16u2-Uno-Rev3.hex:i 
+pause
