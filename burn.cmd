@@ -1,0 +1,3 @@
+"%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\bin\avrdude" "-C%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\etc\avrdude.conf" -v -patmega16u2 -carduino -PCOM5 -b19200 -Ulock:w:0x3F:m -Uefuse:w:0xF4:m -Uhfuse:w:0xD9:m -Ulfuse:w:0xFF:m
+"%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\bin\avrdude" "-C%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\etc\avrdude.conf" -v -patmega16u2 -carduino -PCOM5 -b19200 -Uflash:w:Keyboard.hex:i -Ulock:w:0x3F:m
+pause
