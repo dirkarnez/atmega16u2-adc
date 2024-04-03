@@ -11,7 +11,9 @@ atmega16u2-adc
 - datasheet
   - `PDO, SPI Serial Programming Data Output. During Serial Program Downloading, this pin is used as data output line for the AT90USB82/162. `
 
-
+### Bootloader
+- [Pro Micro & Fio V3 Hookup Guide - SparkFun Learn](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/troubleshooting-and-faq)
+- [Installing an Arduino Bootloader - SparkFun Learn](https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader)
 ### Reference
 - [Arduino入門教學(17) – 如何用 Arduino 燒錄 AVR 晶片 (作者：Cooper Maa)](http://programmermagazine.github.io/201405/htm/article1.html)
 - [**Arduino 烧录 Boot Loader | 米米的博客**](https://zhangshuqiao.org/2019-10/Arduino%E7%83%A7%E5%BD%95Boot%20Loader/)
