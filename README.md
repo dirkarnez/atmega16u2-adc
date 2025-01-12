@@ -7,6 +7,7 @@ atmega16u2-adc
 - https://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
 
 ### Notes
+- `avrdude -p m328p -P /dev/ttyACM0 -c avrisp -b 19200 -U flash:w:release.hex`
 - `"%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/bin/avrdude" "-C%LOCALAPPDATA%\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf" -v -p m16u2 -c arduino -PCOM5 -b19200 -U flash:w:Keyboard.hex:i -F -D`
 - datasheet
   - `PDO, SPI Serial Programming Data Output. During Serial Program Downloading, this pin is used as data output line for the AT90USB82/162. `
